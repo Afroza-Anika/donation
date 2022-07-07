@@ -14,14 +14,13 @@
     box-sizing: border-box;
     height: 100%;
     width:100%;
-  
-   
-  
-}
+    align-content: center;
+  }
 .top-banner p{
     font-family: 'Poppins', sans-serif;
     color :white;
     text-align: center;
+    margin-bottom: 50px;
    
 }
 .one{
@@ -31,16 +30,18 @@
 .donate{
     text-decoration: none;
     background-color: rgb(237, 78, 57);
+    font-family: 'Poppins', sans-serif;
     padding :10px 40px;
     font-size: 15px;
     border-radius: 5px;
     color : white;
     font-weight: 700;
-    margin: auto;
+    margin:20px;
     display: inline-block;
     position: relative;
+    text-align: center;
    
-}
+   }
 .two h1{
          text-align: center;
          font-family: 'Poppins', sans-serif;
@@ -104,4 +105,108 @@
 }
 hr{
     width:80%;
+    margin-bottom: 50px;
+}
+.text-button{
+    margin:0;
+    position :absolute;
+   -ms-transform: translate(-50% , -50%);
+   transform:   translate(-50%, -50%);
+   left : 50%;
+}
+.second-banner{
+    margin-bottom: 200px;
+}
+.third-banner h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color :black;
+    text-align: center;
+}
+.third-banner p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+.food{
+    width :30%;
+    background-color: rgb(241, 211, 215);
+    border: 10px solid white;
+   
+}
+.food p{
+    
+    margin: 10px;
+}
+.shelter{
+    width : 30%;
+    background-color: lightcyan;
+    border: 10px solid white;
+}
+.shelter p{
+    margin: 10px;
+}
+.education{
+    width : 30%;
+    background-color : rgb(202, 225, 239);
+    border: 10px solid white;
+}
+.education p{
+    margin: 10px;
+}
+.sub-two{
+    display: flex;
+    border:60px solid white;
+}
+.contact{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.contact h1{
+    font-size: 40px;
+
+
+}
+
+#subs{
+    background-color: rgb(236, 84, 61);
+    text-align: center;
+    color: aliceblue;
+}
+.info{
+    width:50%;
+    background-color: lightgoldenrodyellow;
+    border: 50px solid white;
+    margin-left: 300px;
+}
+.last-banner{
+    display: flex;
+}
+.half-width{
+    width :50%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border: 10px solid white;
+}
+#how{
+    background-color: rgb(226, 80, 77);
+    text-align: center;
+    color:aliceblue;
+    font-family: 'Poppins', sans-serif;
+    padding :10px 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+footer{
+    font-family :'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: black;
+    text-align: center;
+}
+footer h1{
+    color:rgb(237, 88, 118);
+}
+footer p{
+    color :white;
 }
